@@ -1,0 +1,17 @@
+.row {
+
+    //1140px divided by 10 = 114rem
+    max-width: $grid-width;
+    background-color: rgb(142, 220, 243);
+    margin: 0 auto;
+
+    &:not(:last-child){
+        //my addition 
+        margin-top: 3rem;
+        margin-bottom: $gutter-vertical;
+    }
+    .col-1-of-2 {
+        width: calc();
+    }
+
+}
